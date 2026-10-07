@@ -55,12 +55,13 @@ a {
 }
 
 .btn {
-	padding: 8px;
-	padding-right: 30px;
-	padding-left: 30px;
+	padding: 10px;
+	padding-right: 46px;
+	padding-left: 46px;
 	border-radius: 6px;
 	background-color: #3882f6;
 	color: white;
+	border: 2px solid white;
 }
 
 .hero-img {
@@ -136,4 +137,33 @@ a {
 	font-size: 1.2rem;
 	align-self: flex-end;
 	margin-right: 25%;
+}
+
+.cta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	padding: 80px;
+}
+
+.hook {
+	display: flex;
+	background-color: #3882f6;
+	min-width: 80%;
+	aspect-ratio: 7;
+	border-radius: 10px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.hook-content {
+	display: flex;
+	color: white;
+	flex-flow: column wrap;
+}
+
+.hook-title {
+	font-weight: 700;
+	font-size: 1.4rem;
 }
