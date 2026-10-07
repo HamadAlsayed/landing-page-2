@@ -167,3 +167,12 @@ a {
 	font-weight: 700;
 	font-size: 1.4rem;
 }
+
+.footer {
+	display: flex;
+	padding: 24px;
+	color: white;
+	font-weight: 200;
+	justify-content: center;
+	align-items: center;
+}
