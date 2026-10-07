@@ -90,7 +90,6 @@ a {
 
 .cardview {
 	display: flex;
-	flex-wrap: wrap;
 	padding: 50px;
 	gap: 16px;
 }
@@ -112,6 +111,29 @@ a {
 
 .card p {
 	color: darkgray;
-	max-width: 50%;
+	max-width: 55%;
 	text-align: justify;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(211, 217, 226);
+	padding: 80px;
+}
+
+.quote p {
+	max-width: 55%;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 2rem;
+}
+
+.author {
+	font-weight: 500;
+	font-size: 1.2rem;
+	align-self: flex-end;
+	margin-right: 25%;
 }
